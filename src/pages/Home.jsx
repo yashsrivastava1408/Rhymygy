@@ -9,15 +9,15 @@ export default function Home() {
   }, []);
 
   const stats = [
-    { number: "12.4K+", label: "Verses Shared" },
-    { number: "3.1K+", label: "Artists Joined" },
-    { number: "800+", label: "Collabs Completed" }
+    { number: "0", label: "Verses Shared" },
+    { number: "0", label: "Artists Joined" },
+    { number: "0", label: "Collabs Completed" }
   ];
 
   const testimonials = [
-    "“MT DEKH KYA KAHEGA SAMAAJ,LIKH DAAL APNE JASBAAT,” – YASH SRIVASTAVA",
+    "“Mt Dekh Kya Kahega Samaaj,Likh Daal Apne Jasbaat,” – YASH SRIVASTAVA",
     "“Ek Kalam Ek Shyahi,Or ek mauka” – YASH SRIVASTAVA",
-    "“This platform turned my bedroom beats into real collabs.” – SynthZilla"
+    "“Uski Khoobsurti Likhte Likhte bhar gyi Kitab” – YASH SRIVASTAVA"
   ];
 
   const [testimonialIndex, setTestimonialIndex] = useState(0);
@@ -54,7 +54,7 @@ export default function Home() {
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
         marginBottom: '0.5rem'
-      }}>Rhymygy</h1>
+      }}>RhymyGy</h1>
 
       {/* Subtitle */}
       <p style={{
