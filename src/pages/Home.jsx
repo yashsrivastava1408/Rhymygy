@@ -15,8 +15,8 @@ export default function Home() {
   ];
 
   const testimonials = [
-    "“Rhymygy helped me collab with producers across the globe.” – Lil Byte",
-    "“A dope space to share my bars and get inspired!” – MC Logic",
+    "“MT DEKH KYA KAHEGA SAMAAJ,LIKH DAAL APNE JASBAAT,” – YASH SRIVASTAVA",
+    "“Ek Kalam Ek Shyahi,Or ek mauka” – YASH SRIVASTAVA",
     "“This platform turned my bedroom beats into real collabs.” – SynthZilla"
   ];
 
@@ -37,7 +37,7 @@ export default function Home() {
       alignItems: 'center',
       justifyContent: 'center',
       textAlign: 'center',
-      background: 'linear-gradient(-45deg,rgb(0, 1, 4),rgb(0, 1, 3),rgb(69, 61, 75),rgb(12, 6, 9))',
+      background: 'linear-gradient(-45deg,rgb(0, 1, 4),rgb(0, 1, 3),rgb(34, 12, 51),rgb(12, 6, 9))',
       backgroundSize: '400% 400%',
       animation: 'gradientMove 15s ease infinite',
       color: 'white',
@@ -48,7 +48,7 @@ export default function Home() {
     }}>
       {/* Title */}
       <h1 style={{
-        fontSize: '4rem',
+        fontSize: '13rem',
         fontWeight: '900',
         background: 'linear-gradient(to right, #60a5fa, #8b5cf6, #ec4899)',
         WebkitBackgroundClip: 'text',
@@ -112,7 +112,7 @@ export default function Home() {
       <div style={{
         maxWidth: '500px',
         padding: '1.2rem 1.5rem',
-        backgroundColor: 'rgba(255,255,255,0.05)',
+        backgroundColor: 'rgba(80, 24, 118, 0.05)',
         borderRadius: '1rem',
         fontStyle: 'italic',
         color: '#e0e0e0',
@@ -134,3 +134,4 @@ export default function Home() {
     </div>
   );
 }
+
